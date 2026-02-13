@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  height: 100vh;
+  display: flex;
+}
+.left {
+  height: 100vh;
+  width: 40%;
+  background:
+    radial-gradient(
+      circle at center,
+      rgba(0, 0, 0, 0) 60%,
+      rgba(0, 0, 0, 0.3) 100%
+    ),
+    url("fotos/brugge.jpg");
+  background-size: cover;
+}
+
+.right {
+  width: 60%;
+}
+
+.black-background-odin {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  align-items: center;
+  margin-top: 28vh;
+  padding: 20px;
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.55),
+    rgba(0, 0, 0, 0.4),
+    rgba(0, 0, 0, 0.55)
+  );
+}
+
+.odin-logo {
+  height: 110px;
+  width: auto;
+}
+
+.odin-title {
+  font-family: "Skranji", system-ui;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 5rem;
+  color: white;
+  letter-spacing: 2px;
+}
+
+.credits {
+  color: white;
+}
