@@ -34,7 +34,7 @@
   justify-content: center;
   gap: 30px;
   align-items: center;
-  margin-top: 28vh;
+  margin-top: 17vh;
   width: 100%;
   padding: 20px;
   background: linear-gradient(
@@ -53,7 +53,7 @@
   font-family: "Skranji", system-ui;
   font-style: normal;
   font-weight: 400;
-  font-size: 5rem;
+  font-size: 3.5rem;
   color: #f9fafb;
   letter-spacing: 2px;
 }
@@ -73,5 +73,63 @@
 }
 
 .right {
+  display: flex;
+  flex-direction: column;
   background-color: #f9fafb;
+}
+
+.header {
+  height: 33%;
+}
+
+.header-text {
+  margin: 160px 270px 30px 80px;
+}
+
+.header p {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 40px;
+}
+
+.header-text p:nth-child(2) {
+  margin-top: 35px;
+}
+
+.form {
+  height: 33%;
+  background-color: white;
+  box-shadow:
+    0px -5px 15px -16px rgba(66, 68, 90, 1),
+    0px 5px 15px -16px rgba(66, 68, 90, 1);
+}
+
+.footer {
+  height: 33%;
+}
+
+.footer-text {
+  margin: 50px 0 0 80px;
+}
+
+.knop {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.1rem;
+  font-weight: 700;
+  padding: 15px 80px;
+  background-color: #9a0406;
+  border-radius: 10px;
+  color: #f9fafb;
+  box-shadow: 0px 15px 25px -16px rgba(66, 68, 90, 1);
+}
+
+.login-text {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+}
+
+.login-text a {
+  text-decoration: none;
+  color: #9a0406;
 }
