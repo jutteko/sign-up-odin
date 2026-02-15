@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sign-up-Odin</title>
+
+    <!-- lettertypes-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -18,9 +20,16 @@
     />
     <link rel="stylesheet" href="styles.css" />
     <script src="script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <div class="main">
+      <!-- links -->
       <div class="left">
         <div class="black-background-odin">
           <img src="fotos/odin-lined.png" alt="odin-logo" class="odin-logo" />
@@ -37,18 +46,64 @@
           </p>
         </div>
       </div>
+
+      <!-- rechts -->
       <div class="right">
+        <!-- header -->
         <div class="header">
           <div class="header-text">
             <p>
-              This is not a real online service! You know you need something
-              like this in your live to help you realize your deepest dreams.<br />Sign
-              up now to get started.
+              Experience the magic of the Venice of the North. <br />We bring
+              together the timeless beauty of Bruges with the cutting-edge craft
+              of modern web development.<br />Join us today to build your future
+              amidst the canals and cobblestones.
             </p>
-            <p>You know you want to.</p>
+            <p>Your journey starts here.</p>
           </div>
         </div>
-        <div class="form">4646</div>
+
+        <!-- form -->
+        <div class="form">
+          <div class="form-container">
+            <div class="form-title">
+              <p>Let's do this!</p>
+            </div>
+            <div class="form-form">
+              <form>
+                <div class="form-left">
+                  <div class="article cont-firstname">
+                    <label for="firstname">FIRST NAME</label
+                    ><input type="text" id="firstname" />
+                  </div>
+                  <div class="article cont-email">
+                    <label for="email">EMAIL</label
+                    ><input type="email" id="email" />
+                  </div>
+                  <div class="article cont-password">
+                    <label for="password">PASSWORD</label
+                    ><input type="password" id="password" />
+                  </div>
+                </div>
+                <div class="article form-right">
+                  <div class="article cont-lastname">
+                    <label for="lastname">LAST NAME</label
+                    ><input type="text" id="lastname" />
+                  </div>
+                  <div class="article cont-phonenumer">
+                    <label for="phonenumber">PHONE NUMBER</label
+                    ><input type="number" id="phonenumber" />
+                  </div>
+                  <div class="article cont-password">
+                    <label for="confirmpassword">CONFIRM PASSWORD</label
+                    ><input type="password" id="confirmpassword" />
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+
+        <!-- footer -->
         <div class="footer">
           <div class="footer-text">
             <button type="button" class="knop">Create Account</button>
