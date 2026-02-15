@@ -69,33 +69,33 @@
               <p>Let's do this!</p>
             </div>
             <div class="form-form">
-              <form>
+              <form id="velden">
                 <div class="form-left">
                   <div class="article cont-firstname">
                     <label for="firstname">FIRST NAME</label
-                    ><input type="text" id="firstname" />
+                    ><input type="text" id="firstname" required />
                   </div>
                   <div class="article cont-email">
                     <label for="email">EMAIL</label
-                    ><input type="email" id="email" />
+                    ><input type="email" id="email" required />
                   </div>
                   <div class="article cont-password">
                     <label for="password">PASSWORD</label
-                    ><input type="password" id="password" />
+                    ><input type="password" id="password" required />
                   </div>
                 </div>
                 <div class="article form-right">
                   <div class="article cont-lastname">
                     <label for="lastname">LAST NAME</label
-                    ><input type="text" id="lastname" />
+                    ><input type="text" id="lastname" required />
                   </div>
                   <div class="article cont-phonenumer">
                     <label for="phonenumber">PHONE NUMBER</label
-                    ><input type="number" id="phonenumber" />
+                    ><input type="number" id="phonenumber" required />
                   </div>
                   <div class="article cont-password">
                     <label for="confirmpassword">CONFIRM PASSWORD</label
-                    ><input type="password" id="confirmpassword" />
+                    ><input type="password" id="confirmpassword" required />
                   </div>
                 </div>
               </form>
@@ -106,7 +106,9 @@
         <!-- footer -->
         <div class="footer">
           <div class="footer-text">
-            <button type="button" class="knop">Create Account</button>
+            <button type="submit" class="knop" form="velden">
+              Create Account
+            </button>
             <p class="login-text">
               Already have an account? <a href="#">Log in</a>
             </p>

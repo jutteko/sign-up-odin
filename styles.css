@@ -134,12 +134,19 @@
 .form input {
   height: 2rem;
   width: 20rem;
+  border-color: #688749;
   border-radius: 5px;
+  box-shadow: 5px 5px 20px 0px rgba(66, 68, 90, 1);
 }
 
 .form input:focus {
-  outline: 2px solid #c5958b;
-  border-color: #c5958b;
+  outline: 2px solid #688749;
+  border-color: #688749;
+}
+
+.form input:invalid {
+  outline: 2px solid red;
+  border-color: red;
 }
 
 .form-left,
